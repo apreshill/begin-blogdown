@@ -145,7 +145,7 @@ A tip disclaimer
 For instance, in this current site, the editURL variable is used in config.toml
 [params] editURL = &amp;quot;https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/&amp;quot;  Use the siteparam shortcode to display its value.
 `editURL` Value : {{% siteparam &amp;quot;editURL&amp;quot; %}}  is displayed as
-editURL Value : https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/</description>
+editURL Value : https://github.com/apreshill/begin-blogdown/edit/master/content/</description>
     </item>
     
     <item>

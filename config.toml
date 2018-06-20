@@ -3,17 +3,19 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-title = "Hugo Learn Documentation"
+title = "Begin blogdown"
 theme = "hugo-theme-learn"
 #themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
-  description = "Documentation for Hugo Learn Theme"
-  author = "Mathieu Cornic"
+  editURL = "https://github.com/apreshill/begin-blogdown/edit/master/content/"
+  description = "A beginner blogdown project"
+  author = "Alison Presmanes Hill"
   showVisitedLinks = true
+  # Change default color scheme with a variant one. Can be "red", "blue", "green", or new if in static/css.
+  themeVariant = "ada"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -27,7 +29,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]] 
 name = "<i class='fa fa-fw fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
+url = "https://github.com/apreshill/begin-blogdown"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
@@ -36,9 +38,9 @@ url = "showcase"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fa fa-fw fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
+name = "<i class='fa fa-fw fa-bookmark'></i> Blogdown Documentation"
+identifier = "hugodocs"
+url = "https://bookdown.org/yihui/blogdown/"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]

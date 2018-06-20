@@ -151,7 +151,7 @@
 	"title": "Site param",
 	"tags": [],
 	"description": "Afficher la valeur d&#39;un paramètre global du site dans votre page",
-	"content": "Les shortcode siteparam est utilisé pour vous aider à afficher des valeurs provenant des paramètres globaux du site.\nPar exemple, dans ce site, le paramètre editURL est utilisé dans le fichier config.toml\n[params] editURL = \u0026quot;https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/\u0026quot;  Utilisez le shortcode siteparam pour affichier sa valeur.\nValeur de `editURL` : {{% siteparam \u0026quot;editURL\u0026quot; %}}  s\u0026rsquo;affiche comme\nValeur de editURL : https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/\n"
+	"content": "Les shortcode siteparam est utilisé pour vous aider à afficher des valeurs provenant des paramètres globaux du site.\nPar exemple, dans ce site, le paramètre editURL est utilisé dans le fichier config.toml\n[params] editURL = \u0026quot;https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/\u0026quot;  Utilisez le shortcode siteparam pour affichier sa valeur.\nValeur de `editURL` : {{% siteparam \u0026quot;editURL\u0026quot; %}}  s\u0026rsquo;affiche comme\nValeur de editURL : https://github.com/apreshill/begin-blogdown/edit/master/content/\n"
 },
 {
 	"uri": "/fr/tags/",
